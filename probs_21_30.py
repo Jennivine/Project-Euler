@@ -23,7 +23,7 @@ def q21():
 
 
 def q22():
-    f = open("names.txt", "r")
+    f = open("`names.txt", "r")
     names = sorted(f.read().replace('"', '').split(","), key=str)
 
     value = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6,

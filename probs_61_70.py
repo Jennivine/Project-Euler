@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, './helper_functions')
 
 def q67():
-    data_67 = open("triangle.txt", "r")
+    data_67 = open("`triangle.txt", "r")
     
     def prepare_data_67(x):
         lines = x.split('\n')[::-1]

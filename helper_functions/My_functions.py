@@ -437,7 +437,8 @@ def palindromes_below_n(n):
     p = [x for x in xrange(n+1) if is_palindromes(x)]
     return p
 
-
+def reverse_add_palindrome(n):
+    return n + int(str(n)[::-1])
 
 #------------------------------------Pandigital-------------------------------------
 def is_pandigital(s):

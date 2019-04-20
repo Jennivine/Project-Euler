@@ -15,7 +15,7 @@ def q41():
 
 def q42():
     from My_functions import gen_tri_number
-    f = open("triangle_words.txt", "r")
+    f = open("`triangle_words.txt", "r")
     words = sorted(f.read().replace('"', '').split(","), key=str)
 
     ns = gen_tri_number(10000)
